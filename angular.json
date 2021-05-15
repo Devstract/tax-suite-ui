@@ -103,9 +103,21 @@
             ],
             "scripts": []
           }
+        },
+        "lint": {
+          "builder": "@angular-eslint/builder:lint",
+          "options": {
+            "lintFilePatterns": [
+              "src/**/*.ts",
+              "src/**/*.html"
+            ]
+          }
         }
       }
     }
   },
-  "defaultProject": "tax-suite-ui"
+  "defaultProject": "tax-suite-ui",
+  "cli": {
+    "defaultCollection": "@angular-eslint/schematics"
+  }
 }
