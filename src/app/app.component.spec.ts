@@ -17,18 +17,11 @@ describe('AppComponent', () => {
     expect(app).toBeTruthy();
   });
 
-  it(`should have as title 'tax-suite-ui'`, () => {
-    const fixture = TestBed.createComponent(AppComponent);
-    const app = fixture.componentInstance;
-
-    expect(app.title).toEqual('tax-suite-ui');
-  });
-
-  it('should render title', () => {
+  it('should render default content', () => {
     const fixture = TestBed.createComponent(AppComponent);
     fixture.detectChanges();
     const compiled = fixture.nativeElement;
 
-    expect(compiled.querySelector('.content span').textContent).toContain('tax-suite-ui app is running!');
+    expect(compiled.querySelector('.content').textContent).toContain('Hello World!');
   });
 });
