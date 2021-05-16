@@ -1,4 +1,17 @@
 <div class="page">
-  <div class="navigation">Home</div>
-  <div class="content">Hello World!</div>
+  <div class="navigation expanded">
+    <nav>
+      <ul>
+        <li>
+          <a routerLink="/ad-valorem-tax">Ad Valorem</a>
+        </li>
+        <li>
+          <a routerLink="/business-tax">Business Tax</a>
+        </li>
+      </ul>
+    </nav>
+  </div>
+  <div class="content">
+    <router-outlet></router-outlet>
+  </div>
 </div>
