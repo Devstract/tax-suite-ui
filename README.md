@@ -1,27 +1,27 @@
-# TaxSuiteUi
+# Tax Suite UI
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 12.0.0.
+Tax Suite is a project designed to assist with the collection of property, tangible, and business taxes by local government agencies.
 
-## Development server
+**NOTE**: This is the front-end only. This readme will be updated with a link to the applicable microservices at a later date.
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+## Installation
 
-## Code scaffolding
+To install the front-end, simply open a terminal, navigate to the folder you intend to store the project, and issue the below commands.
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+```SH
+git clone git@github.com:pelhamrj/tax-suite-ui.git
+cd tax-suite-ui
+npm i
+```
 
-## Build
+## Running development environment
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
+To run the frontend, simply navigate to the tax-suite-ui folder within your command terminal, and issue the `npm start` command. You can access the front-end by visiting http://localhost:4200.
 
-## Running unit tests
+## Running production environment
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+This project is not yet ready for production and should not yet be built to do so. Instructions will come at a later date.
 
-## Running end-to-end tests
+## Author
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice.
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+- Ryan Pelham
