@@ -1,7 +1,7 @@
+import { Address } from 'src/app/core/interfaces/address';
+import { Customer } from 'src/app/core/interfaces/customer';
 import { AdValoremAuthority } from './ad-valorem-authority';
-import { Address } from './address';
 import { Bill } from './bill';
-import { Customer } from './customer';
 import { NonAdValoremAuthority } from './non-ad-valorem-authority';
 
 export interface Account {

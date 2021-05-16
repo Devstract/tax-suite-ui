@@ -1,4 +1,3 @@
-import { Account } from './account';
 import { Address } from './address';
 
 export interface Customer {
@@ -8,5 +7,5 @@ export interface Customer {
   businessName: string;
   billingAddress: Address;
   shippingAddress: Address;
-  accounts: Account[];
+  accountIds: string[];
 }
