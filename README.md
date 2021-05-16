@@ -1,6 +1,6 @@
 # Tax Suite UI
 
-Tax Suite is a project designed to assist with the collection of property, tangible, and business taxes by local government agencies.
+Tax Suite is a project designed to assist with the collection of property, tangible, central, and business taxes by local government agencies.
 
 **NOTE**: This is the front-end only. This readme will be updated with a link to the applicable microservices at a later date.
 
